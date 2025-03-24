@@ -224,13 +224,14 @@ header {
 .tipo3:hover {
     background-color:rgb(238, 127, 1);
     color: white;
+    cursor:pointer
 }
 
 .link3{
     color: black;
 }
 
-.link3:hover{
+.tipo3:hover .link3{
     color: white;
     text-decoration:none ;
 }
