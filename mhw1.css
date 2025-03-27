@@ -128,7 +128,7 @@ header {
 #head-modalità-text{
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    align-items: center;
     font-weight: normal;
 }
 
@@ -318,6 +318,10 @@ img {
 
 #nav-registrazione {
     font-size: 15px;
+}
+
+#recupero_pass{
+    font-size: 10px;
 }
 
 #nav-flag {
@@ -525,6 +529,17 @@ img {
     }
     #nav-campanella2,#nav-profilo{
         display: flex;
+    }
+
+    footer{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #credits {
+        padding: 20px 0px 0px 0px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
     }
 
 }
